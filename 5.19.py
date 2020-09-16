@@ -1,3 +1,9 @@
+'''
+Jaime Gil
+1788946
+'''
+
+
 serv_price = ['Oil change', '35', 'Tire rotation', '19', 'Car wash', '7', 'Car wax', '12']
 serv = "0"
 price = "0"
