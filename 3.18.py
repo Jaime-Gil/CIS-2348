@@ -1,3 +1,9 @@
+'''
+Jaime Gil
+1788946
+'''
+
+
 paint_coverage = 350
 color_price = ['red', '35', 'blue', '25', 'green', '23']
 color = ""
