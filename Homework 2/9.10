@@ -1,0 +1,14 @@
+import csv
+file_name = input()
+words = {}
+
+with open(file_name, 'r') as csvfile:
+    csvlist = csv.reader(csvfile)
+    for row in csvlist:
+        for word in row:
+            if word not in words.keys():
+                words[word]=1
+            else:
+                words[word] = words[word] +1
+for key in words.keys():
+    print(key, words[key])
